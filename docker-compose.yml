@@ -1,0 +1,21 @@
+version: '3.9'  # Define the Docker Compose version
+
+services:
+  api:
+    build:
+      context: .  # Root context to access api, agent, and config
+      dockerfile: ./Dockerfile  # Specify the Dockerfile to use for building the image
+    container_name: fastapi_service  # Name of the container for easy reference
+    ports:
+      - "8000:8000"  # Map port 8000 of the container to port 8000 on the host
+    env_file:
+      - .env  # Load environment variables from the .env file
+    networks:
+      - app_network  # Connect this service to the custom network
+
+  # Add more containers here 
+
+
+networks:
+  app_network:
+    driver: bridge  # Use the bridge network driver for container communication

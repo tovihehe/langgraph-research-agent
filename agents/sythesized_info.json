@@ -1,0 +1,63 @@
+{
+    "informacion_general": {
+      "nombre_legal": {
+        "valor": "NVIDIA Corporation",
+        "fuente": "https://www.britannica.com/money/NVIDIA-Corporation"
+      },
+      "sector_industrial": {
+        "valor": "Tecnología y computación acelerada, con enfoque en inteligencia artificial",
+        "fuente": "https://www.nvidia.com/en-us/about-nvidia/"
+      },
+      "tamano": {
+        "facturacion_anual": {
+          "valor": "$130.50 bil.",
+          "fuente": "https://www.britannica.com/money/NVIDIA-Corporation"
+        },
+        "numero_empleados": {
+          "valor": 29600,
+          "fuente": "https://fourweekmba.com/es/empleados-de-nvidia/"
+        }
+      },
+      "ubicacion": {
+        "valor": "Santa Clara, California",
+        "fuente": "https://www.britannica.com/money/NVIDIA-Corporation"
+      },
+      "sitio_web_oficial": {
+        "valor": "https://www.nvidia.com/en-us/about-nvidia/",
+        "fuente": "https://www.nvidia.com/en-us/about-nvidia/"
+      },
+      "estructura_organizacional": {
+        "valor": "Compleja, con varios ejecutivos y especialidades, aunque no se detalla explícitamente.",
+        "fuente": "https://www.theofficialboard.es/organigrama/nvidia"
+      }
+    },
+    "tomadores_decision": {
+      "nombres": [
+        {
+          "valor": "Jensen Huang",
+          "fuente": "https://www.nvidia.com/en-us/about-nvidia/"
+        }
+      ],
+      "roles": [
+        {
+          "valor": "CEO",
+          "fuente": "https://www.britannica.com/money/NVIDIA-Corporation"
+        }
+      ]
+    },
+    "estrategia_y_contexto": {
+      "estrategia_tecnologica": {
+        "valor": "NVIDIA se centra en la tecnología de GPU, computación acelerada y ha estado a la vanguardia de la inteligencia artificial (IA) y aprendizaje automático (ML).",
+        "fuente": "Combinación de https://www.britannica.com/money/NVIDIA-Corporation y https://www.nvidia.com/en-us/about-nvidia/"
+      },
+      "contexto_mercado": {
+        "valor": "NVIDIA ostenta aproximadamente el 80% de la participación de mercado global en chips semiconductores de GPU y está en el centro de la transformación industrial, impactando sectores como la automoción y la atención médica.",
+        "fuente": "Combinación de https://www.britannica.com/money/NVIDIA-Corporation y https://www.nvidia.com/en-us/about-nvidia/"
+      },
+      "objetivos_ceo": {
+        "valor": "El CEO ha destacado que NVIDIA está redefiniendo el futuro de la computación y ha construido una cultura innovadora donde los empleados pueden realizar su trabajo vital.",
+        "fuente": "https://www.nvidia.com/en-us/about-nvidia/"
+      }
+    },
+    "justificacion": "Se seleccionó la información más precisa y coherente de las fuentes disponibles, priorizando la información de Britannica para datos generales y confirmando detalles estratégicos a partir de la página oficial de NVIDIA. El número de empleados se extrajo de una fuente adicional que lo documenta."
+}

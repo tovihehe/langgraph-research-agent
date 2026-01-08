@@ -1,0 +1,14 @@
+# Model parameters. Fill with llm model info you are going to use
+llm_provider: openai
+llm_name: gpt-4o-mini
+llm_temperature: 0.0
+embedding_model: text-embedding-3-small
+max_search_results: 5
+max_loops: 3
+max_info_tool_calls: 3
+
+# Agent prompts. Fill with the different prompt paths your agent is going to need
+prompt_paths :
+  extract_info: "agents/research_agent/prompts/extract_info.txt"
+  synthesize: "agents/research_agent/prompts/synthesize.txt"
+  validate: "agents/research_agent/prompts/validate.txt"

@@ -1,0 +1,20 @@
+Contexto:
+Has recibido información extraída de varias fuentes sobre el tema: "{topic}".
+Tu tarea es sintetizar la información en el campo de "summary", combinando los mejores datos. 
+
+Datos extraídos:
+{extracted_info}
+
+Requisitos:
+1. Selecciona los datos más correctos y relevantes: Evalúa la coherencia, precisión y calidad de la información para combinar la información de la manera más adequada.
+2. Las referencias del "summary", es decir, los URLs se deben poner en el campo "references".
+3. Si hay datos contradictorios, elige el que consideres más preciso y explica la decisión brevemente y de forma que quede integrada en el texto.
+4. Si piensas que falta información, asegúrate de incluirlo en el campo de "justification".
+
+IMPORTANTE: 
+- Redacta bien y la información debe tratar sobre el TEMA proporcionado.
+- Si ves que TE FALTA ALGUNA INFORMACIÓN PONLO EN EL CAMPO de "justification".
+
+--------------------------
+Si hay información previa, añade la información que faltaba, o combínala para mejorarla si hiciera falta:
+{previous_info}

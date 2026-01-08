@@ -1,0 +1,111 @@
+{
+    "type": "object",
+    "properties": {
+      "informacion_general": {
+        "type": "object",
+        "properties": {
+          "nombre_legal": {
+            "type": "string",
+            "description": "¿Cuál es el nombre completo y legal de la empresa?"
+          },
+          "sector_industrial": {
+            "type": "string",
+            "description": "¿En qué sector industrial se encuentra la empresa?"
+          },
+          "tamano": {
+            "type": "object",
+            "properties": {
+              "facturacion_anual": {
+                "type": "string",
+                "description": "¿Cuál es el tamaño de la empresa en términos de facturación anual del 2024?"
+              },
+              "numero_empleados": {
+                "type": "integer",
+                "description": "¿Cuál es el número de empleados de la empresa?"
+              }
+            },
+            "description": "Tamaño de la empresa en términos de facturación anual y número de empleados",
+            "required": [
+              "facturacion_anual",
+              "numero_empleados"
+            ]
+          },
+          "ubicacion": {
+            "type": "string",
+            "description": "¿Cuál es la ubicación geográfica principal de la empresa?"
+          },
+          "sitio_web_oficial": {
+            "type": "string",
+            "description": "¿Cuál es el sitio web oficial de la empresa?"
+          },
+          "estructura_organizacional": {
+            "type": "string",
+            "description": "¿Cuál es la estructura organizacional de la empresa? (centralizada, descentralizada, matricial)"
+          }
+        },
+        "required": [
+          "nombre_legal",
+          "sector_industrial",
+          "tamano",
+          "ubicacion",
+          "sitio_web_oficial",
+          "estructura_organizacional"
+        ]
+      },
+      "tomadores_decision": {
+        "type": "object",
+        "properties": {
+          "nombres": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Lista de nombres de los tomadores de decisión"
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Lista de roles correspondientes a los tomadores de decisión"
+          }
+        },
+        "description": "Información sobre los tomadores de decisión actuales por áreas de la compañía (nombres y roles)",
+        "required": [
+          "nombres",
+          "roles"
+        ]
+      },
+      "estrategia_y_contexto": {
+        "type": "object",
+        "properties": {
+          "estrategia_tecnologica": {
+            "type": "string",
+            "description": "¿Cuál es la estrategia tecnológica de la empresa? (Tecnologías que la empresa planea adoptar, objetivos que pretende conseguir)",
+            "example": "La empresa parece centrada en migrar sus aplicaciones principales a una arquitectura nativa de la nube. Esta transición incluye la adopción de plataformas de orquestación de contenedores para gestionar microservicios, con el objetivo de lograr una implementación más rápida de las funciones y un rendimiento más fiable. Además, la empresa ha asignado una parte sustancial de su presupuesto de I+D a iniciativas de inteligencia artificial, principalmente para el análisis predictivo en la gestión de la cadena de suministro y la personalización de la experiencia de cliente."
+          },
+          "contexto_mercado": {
+            "type": "string",
+            "description": "¿Cuál es el contexto de mercado de la empresa y cómo afecta a su estrategia?",
+            "example": "La empresa opera en el sector de rápido crecimiento, la analítica de datos, y compite tanto con actores establecidos (por ejemplo, Snowflake, Databricks) como con una ola de startups. Los informes de mercado indican un crecimiento anual proyectado del 15 % para las soluciones corporativas de analítica de datos. La estrategia de diferenciación de la empresa se centra en soluciones enfocadas en verticales, en particular en atención médica y finanzas, donde ha desarrollado productos especializados de gobernanza de datos."
+          },
+          "objetivos_ceo": {
+            "type": "string",
+            "description": "¿Qué objetivos de futuro ha mencionado el o la CEO de la empresa?",
+            "example": "En la última carta a los accionistas y en las entrevistas posteriores con los medios, el CEO ha mencionado dos objetivos principales: primero, ampliar la presencia de la empresa en la región de Asia y el Pacífico gracias a acuerdos con distribuidores locales; segundo, ampliar la cartera de productos mediante adquisiciones específicas, en particular en herramientas de análisis basadas en inteligencia artificial. El CEO también mencionó objetivo de crecimiento de los ingresos del 20% para el próximo año fiscal, impulsada por nuevos contratos con grandes clientes y por la introducción de un modelo de licencias basado en suscripciones."
+          }
+        },
+        "required": [
+          "estrategia_tecnologica",
+          "contexto_mercado",
+          "objetivos_ceo"
+        ]
+      }
+    },
+    "required": [
+      "informacion_general",
+      "tomadores_decision",
+      "estrategia_y_contexto"
+    ]
+  }
+  

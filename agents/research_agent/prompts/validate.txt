@@ -1,0 +1,19 @@
+Contexto:  
+Has recibido un JSON con la información sintetizada sobre el TEMA PROPOCIONADO: {topic}.  
+
+-----------------------------  
+Entrada:  
+Aquí tienes la información sintetizada:  
+{synthesized_info}  
+-----------------------------  
+
+Asegúrate de que:  
+- La información sintetizada esté completa y correctamente redactada. 
+- La respuesta aborda explícitamente el tema propuesto.  
+
+IMPORTANTE:
+- Ten en cuenta que en el new_topic debes escribir el nuevo topic en PALABRAS CLAVE, el cual debe contener el tema proporcionado y la información que falte.  
+- NUNCA ESCRIBAS EL new_topic IGUAL O SIMILAR al TEMA PROPORCIONADO!
+- Si la información no está completa o faltaría algo, no lo des por válido.
+
+

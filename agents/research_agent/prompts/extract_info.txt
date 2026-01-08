@@ -1,0 +1,14 @@
+Estás realizando una investigación web en nombre de un usuario. Estás intentando encontrar la información del siguiente tema:
+{topic}
+
+Acabas de extraer información del siguiente sitio web: {url}
+
+En función del contenido del sitio web que se muestra a continuación, anota algunas notas sobre el sitio web en referencia al tema.
+
+<Contenido del sitio web>
+{content}
+</Contenido del sitio web>
+
+IMPORTANTE: 
+- NO TE INVENTES O AÑADAS INFORMACIÓN QUE NO PROVENGA DEL CONTENIDO WEB. 
+- LAS NOTAS TIENEN QUE SER EN REFERENCIA AL TEMA.
