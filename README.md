@@ -1,6 +1,4 @@
-# Proyecto Texto a SQL con LangChain
-
-Este proyecto convierte consultas en lenguaje natural a comandos SQL utilizando LangChain.
+# Proyecto de desarrollo de un Research agent
  
 ## Instalación
 
